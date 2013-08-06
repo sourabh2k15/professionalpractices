@@ -1,0 +1,334 @@
+body {
+    background: #ededed;
+    font-size:.95em;
+    line-height:1.2em;
+    overflow:hidden;
+}
+p {
+    line-height:1.8em;
+}
+.flat {
+    border:0px;
+    border-radius:0px;
+}
+.ink-grid {
+    max-width:none;
+    margin:0px;
+    padding:0px;
+}.mCircle {
+    font-size:2em !important;
+    font-weight:300;
+}
+.round-icon {
+    border-radius:100%;
+}
+.mIcon {
+    font-size:.9em !important;
+    margin-left:.02em;
+    margin-top:.02em;
+}
+i.white {
+    color:#fff !important;
+}
+.red i, i.red, .redT {
+    color:#da3610;
+}
+.icon-stack.red, .icon-stack .red {
+    background:transparent !important;
+}
+.red {
+    background:#da3610 !important;
+}
+.black i {
+    color:#000;
+}
+.gray {
+    color:#ccc;
+}
+.ink-badge {
+    color:#fff;
+    text-transform:uppercase;
+    font-size:.9em;
+    text-shadow:none;
+    margin-left:0px;
+    border-radius:3px;
+}
+.ink-badge.green {
+    background:#8dca35;
+}
+.ink-badge.blue {
+    background:#00bfdd;
+}
+.ink-badge.orange {
+    background:#ff702a;
+}
+.quarter-space {
+    margin:.4em;
+}
+.mod {
+    box-shadow:0px 0px 3px rgba(0,0,0,.1);
+}
+
+
+/* sidebar */
+
+#leftBar {
+    background:#191818;
+    padding:20px 0px;
+    font-size:.8em;
+}
+#leftBar .buttons {
+    position:fixed;
+    bottom:30px;
+    font-size:1.5em;
+}
+#leftBar .buttons span {
+    padding:17px;
+    background:#222;
+    border-radius:3px;
+    margin:5px 8px;
+    color:#444;
+}
+#leftBar h1 {
+    padding:15px;
+}
+#leftBar button {
+    width:100%;
+}
+.name {
+    color:#777;
+}
+h1 {
+    font-weight:normal;
+    color:#444;
+    line-height:1em;
+}
+h1 button {
+    margin-top:60px;
+}
+#leftBar .menu {
+    border-bottom: solid 1px #444;
+    margin:10px 0px;
+}
+#leftBar .menu li {
+    border:0px !important;
+}
+#leftBar .menu .heading {
+    text-transform:uppercase;
+    padding:5px 15px;
+    font-size:.9em;
+}
+#leftBar nav a:link, #leftBar nav a:visited {
+    color:#666;
+    text-decoration:none;
+}
+#leftBar nav .active {
+    background:#222;
+}
+#leftBar nav .white a:link, #leftBar nav .white a:visited {
+    color:#fff;
+}
+#leftBar .ink-badge {
+    margin-top:7px;
+}
+
+
+/* inbox */
+#inbox {
+    background:#fff;
+    padding-top:30px;
+    padding-left:30px !important;
+    padding-right:30px !important;
+}
+#inbox header {
+    padding:0px 15px;
+    color:#ccc;
+}
+#inbox h1 {
+    color:#cfcfcf;
+}
+#inbox .icon-search {
+    margin-top:7px;
+}
+#inbox .round-icon {
+    margin-top:-5px;
+}
+#inbox #actions {
+    margin-top:20px;
+}
+#inbox .content {
+    margin-top:30px;
+    padding:0px 20px;
+    overflow-y:scroll;
+}
+.msg {
+    border-radius:3px;
+    color:#b8b8b8;
+    padding:11px 7px;
+}
+.msg .icon-star {
+    color:#ccc;
+}
+.msg.unread .subject, .msg.unread .sender {
+    font-weight:bold;
+}
+.msg.starred .icon-star{
+    color:#ffab00 !important;
+}
+.msg.highlighted {
+    border-left:solid 2px #ffab00;
+}
+.msg.selected {
+    border:solid 2px #ccc;
+}
+.msg.selected .sender {
+    color:#da3610 !important;
+}
+#inbox .msg input[type="checkbox"] {
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:3px;
+    -webkit-appearance:button;
+    border: solid 1px #ccc;
+    background-color:#fff;
+    color:#666;
+    white-space: nowrap;
+    overflow:hidden;
+    width:15px;
+    height:15px;
+}
+#inbox .msg input[type="checked"]:checked {
+    border:2px;
+}
+#inbox .msg .sender {
+    color:#7a7a7a;
+}
+#inbox .content .msg:nth-child(odd) {
+    background:#f6f6f6;
+}
+#pagination {
+    margin-top:20px;
+}
+
+/* message view */
+#view {
+    background:#fff;
+    overflow:auto;
+}
+#view .author {
+    padding:0px 40px;
+}
+#view .content {
+    padding:20px 40px;
+}
+#view header {
+    padding:40px 20px 40px 40px;
+}
+#view .attachments {
+    margin:0px 40px;
+    padding:30px 0px;
+    border-top:solid 1px #e6e6e6;
+    border-bottom:solid 1px #e6e6e6;
+}
+#view h2 {
+    color:#fff;
+    font-weight:normal;
+    font-size:4.3em !important;
+    line-height:1em;
+}
+#view .buttons {
+    width:20px;
+}
+#view .buttons span {
+    display:block;
+    width:20px;
+    height:20px;
+    margin:20px 0px;
+    background:url('../img/hollow_icons.png') no-repeat;
+}
+#view .hollow-remove {
+    background-position: 0px 0px;
+}
+#view .hollow-right {
+    background-position:0px -40px !important;
+}
+#view .hollow-left {
+    background-position:0px -80px !important
+}
+#view .comments {
+    border:solid 2px #e6e6e6;
+    padding:10px;
+    height:80px;
+    margin:30px 40px;
+}
+
+/* chat/contacts */
+
+#chat {
+    background:#f6f6f6;
+    overflow:auto;
+    padding-bottom:20px;
+}
+#chat header .options {
+    background:#bbb;
+    color:#fff;
+    padding:10px;
+}
+#chat .user {
+    padding:10px;
+    border-bottom:solid 2px #ffab00;
+    background:#fff;
+}
+#chat ul {
+    margin:0px;
+    padding:0px;
+    border-bottom: solid 1px #e6e6e6 !important;
+}
+#chat li {
+    list-style:none;
+    color:#888;
+    margin:0px;
+    padding:10px;
+}
+#chat .heading {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#000;
+    background:transparent;
+}
+#chat .icon-circle {
+    font-size:.6em;
+}
+#chat .online i {
+    color:#8dca35;
+}
+#chat .offline i {
+    color:#ccc;
+}
+#chat .busy i {
+    color:#da3610;
+}
+#chat .away i {
+    color:#ffab00;
+}
+#chat .selected {
+    background:#fff;
+}
+
+
+/* scrollbars */
+#inbox .content::-webkit-scrollbar, #view::-webkit-scrollbar, #chat::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+}
+#inbox .content::-webkit-scrollbar-track, #view::-webkit-scrollbar-track, #chat::-webkit-scrollbar-track {
+    background-color: rgba(113,112,107,0.1);
+    -webkit-border-radius: 5px;
+}
+#inbox .content::-webkit-scrollbar-thumb:vertical, #view::-webkit-scrollbar-thumb:vertical, #chat::-webkit-scrollbar-thumb:vertical {
+    background-color: rgba(0,0,0,.2);
+    -webkit-border-radius: 6px;
+}
+#inbox .content::-webkit-scrollbar-thumb:vertical:hover, #view::-webkit-scrollbar-thumb:vertical:hover, #chat::-webkit-scrollbar-thumb:vertical:hover {
+    background: rgba(0,0,0,.4);
+}
